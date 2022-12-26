@@ -1,0 +1,103 @@
+h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: #f2cc8f;
+}
+
+h2 {
+  color: #81b29a;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #3d405b;
+  flex-wrap: wrap-reverse;
+}
+
+.describe {
+  max-width: 50%;
+  text-align: left;
+  color: #f4f1de;
+}
+
+.describe .sosmed {
+  text-align: center;
+  max-width: 75%;
+  margin-top: 1em;
+}
+
+.describe p {
+  max-width: 75%;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.fotoProfile {
+  display: flex;
+  text-align: center;
+}
+
+.fotoProfile img {
+  width: 300px;
+  border-radius: 1em;
+}
+
+.skill {
+  text-align: left;
+  padding: 5em 8%;
+  background-color: #f4f1de;
+}
+
+.skill h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #3d405b;
+  margin: 0 0 1em 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card-skill {
+  border-radius: 1em;
+  padding: 2em 3.5em;
+  line-height: 2em;
+  background-color: #f4f1de;
+  box-shadow: 0 4px 8px 0 #f2cc8f;
+  transition: 0.3s;
+  width: 300px;
+  margin: 2em;
+}
+
+.card-skill:hover {
+  box-shadow: 0 8px 16px 0 #f2cc8f;
+}
+
+.card-skill ul {
+  margin-top: 1.5em;
+}
+
+.card-skill ul li {
+  list-style: none;
+  color: #3d405b;
+  font-size: 1.25rem;
+}
+
+/*
+ #f4f1de
+ #e07a5f
+ #3d405b
+ #81b29a
+ #f2cc8f
+ */
