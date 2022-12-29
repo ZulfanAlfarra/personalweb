@@ -12,28 +12,30 @@ h2 {
 
 .home {
   height: 100vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
+  /* justify-content: space-evenly;
+  flex-direction: row; */
   background-color: #3d405b;
-  flex-wrap: wrap-reverse;
+  /* flex-wrap: wrap-reverse; */
 }
 
 .describe {
-  max-width: 50%;
-  text-align: left;
+  /* max-width: 50%; */
+  text-align: center;
   color: #f4f1de;
 }
 
 .describe .sosmed {
-  text-align: center;
-  max-width: 75%;
+  /* text-align: center; */
+  /* max-width: 75%; */
   margin-top: 1em;
 }
 
 .describe p {
-  max-width: 75%;
+  /* max-width: 75%; */
   font-size: 1.5rem;
   text-align: center;
   margin-top: 1em;
@@ -51,8 +53,8 @@ h2 {
 
 .skill {
   text-align: left;
-  padding: 5em 8%;
   background-color: #f4f1de;
+  padding: 3em 0;
 }
 
 .skill h1 {
@@ -63,10 +65,12 @@ h2 {
 }
 
 .skills {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  /* flex-direction: row;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
 }
 
 .card-skill {
@@ -92,6 +96,50 @@ h2 {
   list-style: none;
   color: #3d405b;
   font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .fotoProfile img {
+    width: 150px;
+  }
+
+  .describe p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  .skills {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    grid-template-columns: 1fr;
+    height: unset;
+    padding: 5em 0;
+  }
+
+  .fotoProfile {
+    grid-row: 1;
+  }
+
+  .describe {
+    margin-top: 3em;
+  }
 }
 
 /*
