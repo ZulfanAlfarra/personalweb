@@ -39,3 +39,7 @@ a:hover {
 .sosmed {
   margin: 0.8em 0 1em 0;
 }
+
+.sosmed svg {
+  margin: 0 0.2em;
+}

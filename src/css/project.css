@@ -12,6 +12,7 @@
   margin-top: 0.5em;
   font-size: 3rem;
   text-align: center;
+  color: #3d405b;
 }
 
 .project h2 {
@@ -34,7 +35,7 @@
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .projectItem:hover {
@@ -47,6 +48,51 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
+}
+
+.details {
+  background-color: #f4f1de;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.details img {
+  width: 700px;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.details h1 {
+  color: #81b29a;
+  margin-top: 0.2em;
+}
+
+.details a {
+  color: red;
+}
+
+.details p {
+  font-size: 2rem;
+}
+
+.details span {
+  font-weight: 900;
+  font-size: 2.2rem;
+}
+
+.details svg {
+  font-size: 4rem;
+  margin: 0.2em 0;
+  color: #3d405b;
+}
+
+.details svg:hover {
+  color: #81b29a;
+  transition: 0.3s ease-in;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 480px) {

@@ -7,8 +7,8 @@ export const Project = ()=>{
         <div className="project">
             <h1>My Personal Project</h1>
             <div className='projectList'>
-                {ProjectList.map((project)=>{
-                    return <ProjectItem name={project.name} img={project.img} />
+                {ProjectList.map((project, index)=>{
+                    return <ProjectItem id={index} name={project.name} img={project.img} skill={project.skill} />
                 })}
             </div>
         </div>
