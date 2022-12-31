@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/project' element={<Project />} />
-          <Route path='/project/:id' element={<DetailProject />} />
-          <Route path='/experience' element={<Experience />} />
+          <Route path='https://zulfanalfarra.github.io/personalweb/' element={<Home />} />
+          <Route path='https://zulfanalfarra.github.io/personalweb/project' element={<Project />} />
+          <Route path='https://zulfanalfarra.github.io/personalweb/project/:id' element={<DetailProject />} />
+          <Route path='https://zulfanalfarra.github.io/personalweb/experience' element={<Experience />} />
         </Routes>
         <Footer />
       </Router>
