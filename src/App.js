@@ -14,9 +14,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/personalweb/' element={<Home />} />
-          <Route path='/personalweb/project' element={<Project />} />
-          <Route path='/personalweb/project/:id' element={<DetailProject />} />
-          <Route path='/personalweb/experience' element={<Experience />} />
+          <Route path='/project' element={<Project />} />
+          <Route path='/project/:id' element={<DetailProject />} />
+          <Route path='/experience' element={<Experience />} />
         </Routes>
         <Footer />
       </Router>
