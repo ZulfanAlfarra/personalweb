@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pesonalweb/static/css/main.ba8ece0f.css",
-    "main.js": "/pesonalweb/static/js/main.61ea01da.js",
-    "static/media/profile.png": "/pesonalweb/static/media/profile.f97ca642202bb660cbff.png",
-    "static/media/proj3.jpg": "/pesonalweb/static/media/proj3.5275b95c6891f53c3a34.jpg",
-    "static/media/proj1.jpg": "/pesonalweb/static/media/proj1.0b72c4cb17cd1c5af680.jpg",
-    "static/media/proj2.jpg": "/pesonalweb/static/media/proj2.62a643b5a1e62769db38.jpg",
-    "index.html": "/pesonalweb/index.html",
-    "main.ba8ece0f.css.map": "/pesonalweb/static/css/main.ba8ece0f.css.map",
-    "main.61ea01da.js.map": "/pesonalweb/static/js/main.61ea01da.js.map"
+    "main.css": "/personalweb/static/css/main.ba8ece0f.css",
+    "main.js": "/personalweb/static/js/main.3ec4c5cf.js",
+    "static/media/profile.png": "/personalweb/static/media/profile.f97ca642202bb660cbff.png",
+    "static/media/proj3.jpg": "/personalweb/static/media/proj3.5275b95c6891f53c3a34.jpg",
+    "static/media/proj1.jpg": "/personalweb/static/media/proj1.0b72c4cb17cd1c5af680.jpg",
+    "static/media/proj2.jpg": "/personalweb/static/media/proj2.62a643b5a1e62769db38.jpg",
+    "index.html": "/personalweb/index.html",
+    "main.ba8ece0f.css.map": "/personalweb/static/css/main.ba8ece0f.css.map",
+    "main.3ec4c5cf.js.map": "/personalweb/static/js/main.3ec4c5cf.js.map"
   },
   "entrypoints": [
     "static/css/main.ba8ece0f.css",
-    "static/js/main.61ea01da.js"
+    "static/js/main.3ec4c5cf.js"
   ]
 }
