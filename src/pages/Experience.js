@@ -3,10 +3,15 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css'
 import '../css/experience.css'
 import SchoolIcon from '@mui/icons-material/School'
+import {motion} from 'framer-motion'
 
 const Experience = () => {
   return (
-    <div className='experience'>
+    <motion.div className='experience'
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      exit={{opacity:0}}
+    >
         <VerticalTimeline lineColor='#3d405b'>
           <VerticalTimelineElement 
           className='vertical-timeline-element--education'
@@ -44,7 +49,7 @@ const Experience = () => {
             <p>Computer Science</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
-    </div>
+    </motion.div>
   )
 }
 

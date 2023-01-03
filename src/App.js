@@ -1,23 +1,16 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Navbar } from './Navbar'
-import { Home } from './pages/Home'
-import { Project } from './pages/Project'
-import Experience from './pages/Experience';
 import Footer from './Footer';
-import DetailProject from './pages/DetailProject';
+import PathMotion from './helpers/PathMotion';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/project' element={<Project />} />
-          <Route path='/project/:id' element={<DetailProject />} />
-          <Route path='/experience' element={<Experience />} />
-        </Routes>
+        <PathMotion />
         <Footer />
       </Router>
     </div>

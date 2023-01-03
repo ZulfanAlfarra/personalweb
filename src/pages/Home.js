@@ -3,10 +3,16 @@ import profile from '../img/profile.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { motion } from "framer-motion"
 
 export const Home = ()=>{
     return (
-        <div>
+        <motion.div 
+            initial={{opacity:0}}
+            animate={{opacity:1}}
+            exit={{opacity:0}}
+        >
+
             <div className='home'>
                 <div className='describe'>
                     <h1>Hello, I'am Zulfan</h1>
@@ -57,7 +63,7 @@ export const Home = ()=>{
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
