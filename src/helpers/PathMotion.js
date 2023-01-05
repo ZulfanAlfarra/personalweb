@@ -11,10 +11,10 @@ const PathMotion = () => {
     return (
     <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-            <Route path='/' element={<Home />} />
-            <Route path='/project' element={<Project />} />
-            <Route path='/project/:id' element={<DetailProject />} />
-            <Route path='/experience' element={<Experience />} />
+            <Route path='/personalweb/' element={<Home />} />
+            <Route path='/personalweb/project' element={<Project />} />
+            <Route path='/personalweb/project/:id' element={<DetailProject />} />
+            <Route path='/personalweb/experience' element={<Experience />} />
         </Routes>            
     </AnimatePresence>
     )
